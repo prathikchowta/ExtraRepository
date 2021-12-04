@@ -1,0 +1,45 @@
+// Steps for Mobile Automation
+
+--------- Downloads ---------
+
+1. Android studio - https://developer.android.com/studio/index.html
+2. Appium Jar files - https://search.maven.org/#search%7Cga%7C1%7Cg%3Aio.appium%20a%3Ajava-client
+3. Appium Client - https://docs.seleniumhq.org/download/
+4. Appium Server - https://appium.io/
+5. Java JDK - http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+--------- Add environment variables -----------
+
+ANDROID_HOME under user variable
+JAVA_HOME under system variables in -- Edit PATH and update
+
+Note: In some case if it does not work try adding both the path address under Path in user variables.
+
+---------- Open Appium server -------------
+
+-- navigate to advanced section
+-- change ip address to 127.0.0.1 
+
+
+--------- After installing Android studio ------------
+
+--> Create a new blank project for the Test cases
+
+--> Change the project structure to Project.
+
+--> Click on app folder -> under lib folder perform below step
+
+--> In the created project include the downloaded JAR files under lib folder.
+
+--> Select all the included JAR files -> right click -> Add as library
+
+--> Build the project
+
+--> Click src folder -> test folder -> on the package name right click and create a new java class file
+
+
+
+
+
+
+
